@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_profile2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backs"
+    tools:context=".Profile">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myProfile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/profiles"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="290dp"
+        android:text="Nama : Louis Jonathan"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mynim"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="260dp"
+        android:text="NIM : 00000027658"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mykelas"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="320dp"
+        android:text="Kelas : CL"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/referensi"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="370dp"
+        android:text="Referensi :"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/youtube"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="390dp"
+        android:text="Youtube"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/youtube1"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="395dp"
+        android:text="https://www.youtube.com/watch?v=GAdGmJxfcf8"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/youtube2"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="410dp"
+        android:text="https://www.youtube.com/watch?v=tlOGecRQeOo"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/youtube3"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="425dp"
+        android:text="https://www.youtube.com/watch?v=74BMukDxEr8"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/youtube4"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="440dp"
+        android:text="https://www.youtube.com/watch?v=NM9RbDGl5C8"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="455dp"
+        android:text="Website"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/website1"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="460dp"
+        android:text="http://www.devexchanges.info/2015/12/android-basic-training-course-showing.html"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/website2"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="485dp"
+        android:text="https://www.techotopia.com/index.php/Creating_and_Managing_Overflow_Menus_on_Android#The_Overflow_Menu"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/website3"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="516dp"
+        android:text="https://www.homeandlearn.co.uk/android/toolbar_menu_items.html"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/website4"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="545dp"
+        android:text="https://stackoverflow.com/questions/3965122/android-how-to-align-message-in-alertdialog"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teman"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="570dp"
+        android:text="Teman"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teman1"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="575dp"
+        android:text="Martin Wongso"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teman2"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="590dp"
+        android:text="Yonathan Christian"
+        android:textAlignment="textStart"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
