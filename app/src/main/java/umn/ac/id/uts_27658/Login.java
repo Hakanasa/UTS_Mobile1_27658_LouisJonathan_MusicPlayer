@@ -45,6 +45,8 @@ public class Login extends AppCompatActivity {
                         password.getText().toString().trim().equals("uasmobilegenap")){
                     username.setText("");
                     password.setText("");
+                    Intent intent = new Intent(getApplicationContext(), List.class);
+                    startActivity(intent);
                     alert();
                 }else if(!"uasmobile".equals(username.getText().toString().trim())){
                     username.setText("");
@@ -70,8 +72,6 @@ public class Login extends AppCompatActivity {
         //Negative Button
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                Intent intent = new Intent(getApplicationContext(), List.class);
-                startActivity(intent);
                 finish();
             }
         });
