@@ -10,7 +10,7 @@
     tools:context=".List">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/listViewSong"
+        android:id="@+id/rvSong"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@android:color/transparent"

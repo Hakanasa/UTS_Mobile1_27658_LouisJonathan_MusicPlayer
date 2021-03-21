@@ -43,7 +43,7 @@ import java.util.ArrayList;
 
 public class List extends AppCompatActivity{
 
-    RecyclerView listView;
+    RecyclerView rv;
     String[] items;
 
 
@@ -52,7 +52,7 @@ public class List extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        listView = findViewById(R.id.listViewSong);
+        rv = findViewById(R.id.rvSong);
 
         runtimePermission();
         getSupportActionBar().setTitle("List Lagu");
@@ -111,11 +111,13 @@ public class List extends AppCompatActivity{
 
         }
 
-        listView.setAdapter(new MusicAdapter(this, mySongs, items));
-        listView.setLayoutManager(new LinearLayoutManager(this));
+        rv.setAdapter(new MusicAdapter(this, mySongs, items));
+        rv.setLayoutManager(new LinearLayoutManager(this));
 
     }
 
+
+    //ADAPTER BUAT RECYCLER VIEW saya satuin di 1 file java
     public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.ViewHolder>{
 
         private ArrayList<File> mySongs;
